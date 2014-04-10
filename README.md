@@ -6,4 +6,4 @@ Este es un intento de resolver todos los ejercicios del sitio web de la asignatu
 
 Intentaré ser regular con las subidas, pero cuando la nación de los certámenes y controles ataca no hay mucho que se pueda hacer :/
 
-Si tienes dudas, o tienes un ejercicio que no entiendes, envíame un correo a camilo.saldias.12@sansano.usm.cl
+Si tienes dudas, o tienes un ejercicio que no entiendes, envíame un correo a camilo.saldias.12@sansano.usm.cl. Feliz estudio! :D

@@ -24,3 +24,5 @@ for i in range(1, cant_productos+1):
 print "Total: "+str(total_compra)
 print "Descuento: "+str(total_compra - total_descuento)
 print "Por pagar: "+str(total_descuento)
+
+#NOTA: Los resultados que me da el programa son distintos a los que salen en el certamen, aun cuando los haga a mano. Es posible que el certamen tenga algun error.

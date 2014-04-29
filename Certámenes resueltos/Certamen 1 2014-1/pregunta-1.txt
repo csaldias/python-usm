@@ -2,13 +2,13 @@
 La tabla del ruteo queda así:
 
 a	c	d	b	x	i
-8573
+'8573'
 	3
-		a
+		'a'
 			-1
 				2
 					3
-		a3
+		'a3'
 			-2
 					7
 	7

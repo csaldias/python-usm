@@ -1,0 +1,28 @@
+1a)
+La tabla del ruteo queda así:
+
+a	c	d	b	x	i
+8573
+	3
+		a
+			-1
+				2
+					3
+		a3
+			-2
+					7
+	7
+			-3
+					5
+	11
+			-4
+
+Y el programa imprime:
+a3 7
+a3 11
+a3 True
+
+1b)
+El algoritmo toma un número, obtiene su módulo de 10, lo multiplica por un factor creciente y los va sumando, para luego imprimir el valor.
+
+NOTA: La pregunta 1b), la del algoritmo, tiene todas las de ser bastante ambigua. Puede darse que lo que escribí arriba esté malo, quién sabe :/

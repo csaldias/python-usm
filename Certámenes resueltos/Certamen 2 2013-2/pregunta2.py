@@ -1,3 +1,4 @@
+#Datos de ejemplo del problema.
 series = [
 ('game of thrones', 'USA', 9.4, ['ficcion']),
 ('24', 'USA', 8.4, ['accion','suspenso']),
@@ -9,66 +10,54 @@ series = [
 # ...
 ]
  
- 
-# Funcion a)
+#Problema a)
 def series_por_pais(pais, series):
-    lista = []
- 
+    series_pais = []
+    #Iteramos sobre la lista de series
     for serie in series:
-        # Desempaquetado
-        nombre, pais_de_origen, rating, generos = serie
- 
+        #Desempaquetamos los datos
+        nombre_serie, pais_de_origen, rating, generos = serie
+        #Si el pais de origen es el buscado...
         if pais_de_origen == pais:
-            tupla = (nombre, rating)
-            lista.append(tupla)
- 
-    return lista
- 
- 
-# Funcion b)
+            #Lo agregamos a la lista
+            series_pais.append( (nombre_serie, rating) )
+    return series_pais
+
+#Problema b)
 def series_por_generos(generos, series):
-    conjunto = set()
- 
+    series_genero = set()
+    #Iteramos sobre la lista de series
     for serie in series:
-        nombre, pais_de_origen, rating, generos_serie = serie
- 
-        # Se recorre la lista de generos entregados por el parametro para ver si
-        # al menos uno esta dentro de la lista de generos de la serie
+        #Desempaquetamos los datos
+        nombre_serie, pais_de_origen, rating_serie, generos_serie = serie
+        #Iteramos sobre una lista de generos pedidos
         for genero in generos:
- 
+            #Si la serie analizada es del (o los) genero(s) pedido(s)...
             if genero in generos_serie:
-                tupla = (nombre, rating)
-                conjunto.add(tupla)
- 
-    return conjunto
- 
- 
-# Funcion c)
+                #Lo agregamos al conjunto
+                series_genero.add( (nombre, rating) )
+    return series_genero
+
+#Problema c)
 def recomendaciones(pais, generos, series):
-    # En este caso conviene bastante usar las funciones anteriores en vez de
-    # realizar nuevamente si una serie tiene un genero determinado o si proviene
-    # de tal pais. Es por esto que vamos a guardar la lista y el conjunto de las
-    # funciones a) y b) respectivamente en dos variables distintas.
- 
+    #Algo que le gusta mucho a los profes: usar las funciones que creaste anteriormente.
+    #Eso no significa que tengas que tenerlas hechas, solo saber que es lo que devuelven.
     lista_series_por_pais = series_por_pais(pais, series)
     conjunto_series_por_generos = series_por_generos(generos, series)
- 
-    # Ahora solo hay que buscar entre ambos tipos de datos aquel que este en
-    # ambos y que sea el de mayor puntuacion
- 
-    # En este caso elegi convertir a conjunto la lista series_por_pais e
-    # intersectarla con el otro conjunto para ver aquellos elementos en comun
+    #Aca conviene pasar la lista de series por pais a conjunto, porque asi podemos
+    #sacar la interseccion para obtener las series que cumplan tanto con el requisito
+    #de pais como de genero.
     conjunto_series_por_pais = set(lista_series_por_pais)
- 
     series_en_comun = conjunto_series_por_generos & conjunto_series_por_pais
- 
-    # Ahora vamos en busca del que tiene mayor rating
-    mayor = -999999
+    #Ahora queda buscar el que tenga mas rating, y tamos listos.
+    mayor_rating = -999
     for serie in series_en_comun:
-        nombre, rating = serie
- 
+        nombre_serie, rating = serie
+        #Hacemos la comparacion
+        #Si el rating de la serie es mas grande que el rating mas grande conocido...
         if rating > mayor:
-            mayor = rating
-            nombre_serie_recomendada = nombre
- 
-    return nombre_serie_recomendada
+            #Actualizo mi contador...
+            mayor_rating = rating
+            #Y actualizo el nombre de la serie a recomendar.
+            serie_recomendada = nombre_serie
+    return serie_recomendada

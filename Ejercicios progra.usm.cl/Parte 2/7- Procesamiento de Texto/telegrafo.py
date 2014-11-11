@@ -8,7 +8,7 @@ for letra in msj:
         if ord(letra) in range(97,123):
             costo += 10
         #elif letra in '1234567890'
-        elif letra in range(10):
+        elif ord(letra) in range(65,91):
             costo += 20
         else:
             costo += 30

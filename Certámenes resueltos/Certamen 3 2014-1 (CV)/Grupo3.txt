@@ -1,0 +1,6 @@
+Colombia;3-Grecia;0
+Costa de Marfil;2-Japon;1
+Colombia;2-Costa de Marfil;1
+Japon;0-Grecia;0
+Japon;1-Colombia;4
+Grecia;2-Costa de Marfil;1

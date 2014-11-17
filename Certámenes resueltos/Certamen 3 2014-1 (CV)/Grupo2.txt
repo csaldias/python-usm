@@ -1,0 +1,6 @@
+Espania;1-Holanda;5
+Chile;3-Australia;1
+Australia;2-Holanda;3
+Espania;0-Chile;3
+Holanda;2-Chile;0
+Australia;0-Espania;3

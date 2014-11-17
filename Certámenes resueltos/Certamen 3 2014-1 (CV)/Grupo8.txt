@@ -1,0 +1,6 @@
+Belgica;2-Argelia;1
+Rusia;1-Corea del Sur;1
+Belgica;1-Rusia;0
+Argelia;4-Corea del Sur;2
+Corea del Sur;0-Belgica;1
+Argelia;1-Rusia;1

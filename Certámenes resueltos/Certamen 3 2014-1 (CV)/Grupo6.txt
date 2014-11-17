@@ -1,0 +1,6 @@
+Argentina;2-Bosnia y Herzegovina;1
+Iran;0-Nigeria;0
+Argentina;1-Iran;0
+Nigeria;1-Bosnia y Herzegovina;0
+Nigeria;2-Argentina;3
+Bosnia y Herzegovina;3-Iran;1

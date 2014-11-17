@@ -1,0 +1,6 @@
+Suiza;2-Ecuador;1
+Francia;3-Honduras;0
+Francia;5-Suiza;2
+Ecuador;2-Honduras;1
+Ecuador;0-Francia;0
+Honduras;0-Suiza;3

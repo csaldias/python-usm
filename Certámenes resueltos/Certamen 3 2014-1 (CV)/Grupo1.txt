@@ -1,0 +1,6 @@
+Brasil;3-Croacia;1
+Mexico;1-Camerun;0
+Brasil;0-Mexico;0
+Camerun;0-Croacia;4
+Camerun;1-Brasil;4
+Croacia;1-Mexico;3

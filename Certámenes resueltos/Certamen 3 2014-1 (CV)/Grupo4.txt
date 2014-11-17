@@ -1,0 +1,6 @@
+Uruguay;1-Costa Rica;3
+Inglaterra;1-Italia;2
+Uruguay;2-Inglaterra;1
+Italia;0-Costa Rica;1
+Costa Rica;0-Inglaterra;0
+Italia;0-Uruguay;1

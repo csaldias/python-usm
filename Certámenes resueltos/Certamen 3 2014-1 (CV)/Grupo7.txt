@@ -1,0 +1,6 @@
+Alemania;4-Portugal;0
+Ghana;1-Estados Unidos;2
+Alemania;2-Ghana;2
+Estados Unidos;2-Portugal;2
+Estados Unidos;0-Alemania;1
+Portugal;2-Ghana;1

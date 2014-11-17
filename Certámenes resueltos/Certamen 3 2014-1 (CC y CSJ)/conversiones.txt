@@ -1,0 +1,8 @@
+dogecoin:0.00000129
+quarkcoin:0.00005130
+darkcoin:0.00126000
+saturncoin:0.00000004
+mintcoin:0.00000010
+blackcoin:0.00004750
+litecoin:0.02737998
+maxcoin:0.00035389

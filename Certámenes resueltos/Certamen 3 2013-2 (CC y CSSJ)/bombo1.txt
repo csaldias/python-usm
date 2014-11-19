@@ -1,0 +1,7 @@
+Brasil:CONMEBOL
+Espana:UEFA
+Argentina:CONMEBOL
+Alemania:UEFA
+Suiza:UEFA
+Colombia:CONMEBOL
+Belgica:UEFA

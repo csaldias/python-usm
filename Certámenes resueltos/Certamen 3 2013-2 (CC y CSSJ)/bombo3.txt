@@ -1,0 +1,8 @@
+EEUU:CONCACAF
+Australia:ACF
+Costa Rica:CONCACAF
+Japon:ACF
+Corea del S:ACF
+Honduras:CONCACAF
+Iran:ACF
+Mexico:CONCACAF

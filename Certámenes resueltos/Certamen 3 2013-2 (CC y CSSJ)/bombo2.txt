@@ -1,0 +1,8 @@
+Nigeria:CAF
+Chile:CONMEBOL
+Ghana:CAF
+Argelia:CAF
+Ecuador:CONMEBOL
+C. de Marfil:CAF
+Italia:UEFA
+Camerun:CAF

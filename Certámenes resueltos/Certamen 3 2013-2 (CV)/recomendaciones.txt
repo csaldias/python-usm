@@ -1,0 +1,7 @@
+Producto: Ipad
+Establecimiento con menor precio: Falaferia
+Precio: $199990.0
+Se encuentra a: 58.5868585947Km de distancia.
+Establecimiento mas cercano que tiene el producto: Falaferia
+Precio: $199990.0
+Se encuentra a: 58.5868585947 km de distancia

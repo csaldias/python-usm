@@ -1,0 +1,8 @@
+z1:agotado:15
+z2:en explotacion:7
+z3:programado:10
+z4:programado:30
+z5:agotado:5
+z6:programado:2
+z7:en explotacion:3
+z8:en explotacion:9
